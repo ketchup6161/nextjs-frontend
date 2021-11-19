@@ -50,9 +50,8 @@ export default function LoginPage() {
           <input type="submit" value="Login" className="btn" />
         </form>
 
-        <p>
-          <Link href="/account/register">Register</Link>
-        </p>
+        <p>Don't have an account?</p>
+        <Link href="/account/register">Register</Link>
       </div>
     </Layout>
   );
